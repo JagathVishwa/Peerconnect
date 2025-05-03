@@ -14,7 +14,7 @@ function Room() {
     useEffect(() => {
         // Create Peer instance with custom signaling server
         const newPeer = new Peer(undefined, {
-            host: 'https://peerjs-server-jie0.onrender.com',
+            host: 'peerjs-server-jie0.onrender.com',
             secure: true,
             port: 443,
             path: '/peer.js',
