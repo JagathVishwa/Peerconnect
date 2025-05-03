@@ -14,7 +14,7 @@ function Room() {
     useEffect(() => {
         // Create Peer instance with custom signaling server
         const newPeer = new Peer(undefined, {
-            host: 'https://peerconnect-tau.vercel.app/',
+            host: 'peerconnect-tau.vercel.app/',
             secure: true,
             port: 443,
             path: '/'
